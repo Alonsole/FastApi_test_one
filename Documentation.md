@@ -18,9 +18,10 @@ source venv/bin/activate
 ```Bash
 git clone -b main git@github.com:Alonsole/FastApi_test_one.git
 ```
+2.1 Установить Sources Root на папку APP
 ### 3. Установите библиотеки:
 ```
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 ### 4.Настройка переменного окружения
 Необходимо переименовать пример.env в .env и заполнить:
